@@ -1,7 +1,7 @@
 {
   "name": "react-newline-to-break",
-  "version": "1.0.1",
-  "description": "Convert newlines '\\n' to break '<br />'. Made for React",
+  "version": "1.0.2",
+  "description": "Convert newlines '\\n' to break '<xmp><br/></xmp>'. Made for React",
   "main": "lib/nl2br.min.js",
   "scripts": {
     "dev": "webpack --watch",
