@@ -1,6 +1,6 @@
 {
   "name": "react-newline-to-break",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert newlines '\\n' to break '&lt; br\ &gt;'. Made for React",
   "main": "lib/nl2br.min.js",
   "scripts": {
