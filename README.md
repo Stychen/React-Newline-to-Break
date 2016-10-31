@@ -41,14 +41,14 @@ this will render into something like
         Hello I am cool
         <br/>
     </span>
-    <span key={0}>
+    <span key={1}>
         but you are too
         <br/>
     </span>
-    <span key={0}>
+    <span key={2}>
         <br/>
     </span>
-    <span key={0}>
+    <span key={3}>
         Can we be friends?
         <br/>
     </span>
