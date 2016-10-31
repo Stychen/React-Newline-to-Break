@@ -1,0 +1,11 @@
+{
+  "name": "react-newline-to-break",
+  "version": "1.0.0",
+  "description": "Convert newlines '\\n' to <br />. made for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
