@@ -3,29 +3,29 @@
  */
 
 import nl2br from 'src';
-import React from 'react';
+import React, { Fragment } from 'react';
 import assert from 'assert';
 
 describe('nl2br', function(){
     it('should parse newlines', function(){
-        const result = nl2br("aaa\nbbb\nccc\nddd");
+        const result = nl2br('aaa\nbbb\nccc\nddd');
         const expected = [
-            <span key={0}>
+            <Fragment>
                 aaa
                 <br/>
-            </span>,
-            <span key={1}>
+            </Fragment>,
+            <Fragment>
                 bbb
                 <br/>
-            </span>,
-            <span key={2}>
+            </Fragment>,
+            <Fragment>
                 ccc
                 <br/>
-            </span>,
-            <span key={3}>
+            </Fragment>,
+            <Fragment>
                 ddd
                 <br/>
-            </span>
+            </Fragment>
         ];
         assert.deepEqual(expected, result);
     });
