@@ -1,6 +1,6 @@
 'use strict';
 
-import React from 'react';
+import React, { Fragment } from 'react';
 
 const newline = '\n';
 
@@ -14,10 +14,10 @@ function nl2br(text) {
     let lines = text.split(newline);
     return lines.map(function(line, i) {
         return (
-            <span key={i}>
+            <Fragment>
                 {line}
                 <br/>
-            </span>
+            </Fragment>
         );
     });
 }
