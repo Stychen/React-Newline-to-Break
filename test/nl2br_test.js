@@ -58,4 +58,10 @@ describe('nl2br', function(){
         const expected = '';
         assert.deepEqual(expected, result);
     });
+
+    it('should return an empty string if the param is an empty string', function () {
+        const result = nl2br('');
+        const expected = '';
+        assert.deepEqual(expected, result);
+    });
 });
