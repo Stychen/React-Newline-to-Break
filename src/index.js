@@ -7,7 +7,7 @@ const newline = '\n';
 function nl2br(text) {
     if (typeof text === 'number') {
         return text;
-    } else if (typeof text !== 'string') {
+    } else if (typeof text !== 'string' || text === '') {
         return '';
     }
 
